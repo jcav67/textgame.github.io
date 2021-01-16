@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/css/Styles.css">
+    <script src="./statics/js/index.js"></script>
+    <title>s2-3</title>
+</head>
+<body>
+    <center>
+        <div>
+            <img src="./statics/images/door.png" alt="orc"  height="300">
+        </div>
+        <div class="div-historia s1-1">
+            <p style="font-size:20px;">Te encuentras frente a frente al orco, está furioso. También ves que del cuello le cuelga una llave negra y gruesa. Sin duda es la llave de la única puerta que se ve en la cueva. Puedes atacar al orco o distraerlo y tomar la llave. tú:
+            </p>
+        </div>
+        <div class="div-buttons">
+            <div style="display: flex;">
+                <div style="display: grid;width: 50%;">
+                    <button id='a' class="btn-respuesta" onclick="s23Respuesta('a')">a) Decides atacar y acabar con la pelea de una vez por todas. </button>
+                    <button id="b" class="btn-respuesta" onclick="s23Respuesta('b')">b) Decides distraer al orco y tomar la llave.</button>
+                </div>
+                <div style="display: grid;width: 50%;">
+                    <button id='c' class="btn-respuesta" onclick="s23Respuesta('c')">c) Decides hablar con el orco y convencerlo de que te deje ir.</button>
+                    <button id='d' class="btn-respuesta" onclick="s23Respuesta('d')">d) Decides correr hacia la puerta e intentar forzarla.</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="div-respuesta" style="width: 50%;"><p id="Respuesta" class="Respuesta"></p></div>
+    </center>
+</body>
+</html>

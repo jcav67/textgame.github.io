@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/css/Styles.css">
+    <script src="./statics/js/index.js"></script>
+    <title>s1-2</title>
+</head>
+<body>
+    <center>
+        <div>
+            <img src="./statics/images/cueva2.gif" alt="montaña con cueva" width="45%" height="350">
+        </div>
+        <div>
+            <div class="div-historia s1-1">
+                <p style="font-size: 30px;">Miras hacia la montaña y ves la entrada a la cueva. Está oscura y a duras penas se ve algo. Tú le dices a Ceses que:</p>
+            </div>
+        </div>
+        <div class="div-buttons">
+            <div style="display: flex;">
+                <div style="display: grid;width: 50%;">
+                    <button id="a" class="btn-respuesta" onclick="s12Respuesta('a')">a) No se preocupe y te dispones a marchar a la cueva.</button>
+                    <button id="b" class="btn-respuesta" onclick="s12Respuesta('b')">b) Irás después de descansar un rato.</button>
+                </div>  
+                <div style="display: grid;width: 50%;">
+                    <button id="c" class="btn-respuesta" onclick="s12Respuesta('c')">c) No irás porque ya es muy tarde, que mañana lo ayudas.</button>
+                    <button id="d" class="btn-respuesta" onclick="s12Respuesta('d')">d) No irás y que mejor busque a alguien más que lo pueda ayudar.</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="div-respuesta" style="width: 50%;"><p id="Respuesta" class="Respuesta"></p></div>
+    </center>
+</body>
+</html>

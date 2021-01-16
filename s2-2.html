@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/css/Styles.css">
+    <script src="./statics/js/index.js"></script>
+    <title>s2-2</title>
+</head>
+<body>
+    <center>
+        <div>
+            <img src="./statics/images/orc.jpg" alt="orc"  height="300">
+        </div>
+        <div class="div-historia s1-1">
+            <p style="font-size:20px;">Ves al monstruo corriendo hacia ti, te sientes aterrorizado y tu instinto te está gritando que huyas. Sin embargo, también sientes un deseo de culpa si huyes y dejas al hijo del herrero abandonado. Tú:</p>
+        </div>
+        <div class="div-buttons">
+            <div style="display: flex;">
+                <div style="display: grid;width: 50%;">
+                    <button id='a' class="btn-respuesta" onclick="s22Respuesta('a')">a) Te preparas para el ataque.</button>
+                    <button id="b" class="btn-respuesta" onclick="s22Respuesta('b')">b) Volteas y empiezas a correr.</button>
+                </div>
+                <div style="display: grid;width: 50%;">
+                    <button id='c' class="btn-respuesta" onclick="s22Respuesta('c')">c) Te quedas quieto aterrorizado.</button>
+                    <button id='d' class="btn-respuesta" onclick="s22Respuesta('d')">d) Intentas hablar con el monstruo.</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="div-respuesta" style="width: 50%;"><p id="Respuesta" class="Respuesta"></p></div>
+    </center>
+</body>
+</html>

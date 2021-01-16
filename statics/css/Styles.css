@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+
+button{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+    border-radius: 10%;
+}
+.p-inicio{
+    color:white ;
+    font-size: 40px;
+}
+.h1-cabeza{
+    font-size: 100px;
+    color: Red;
+    text-align: center;
+}
+.btn-iniciar{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+    border-radius: 10%;
+}
+.div-historia{
+    color: #ffffff;
+    border: solid;
+}
+.btn-respuesta{
+    border: solid;
+    border-color: lightgray;
+    width: 50%;
+    margin: 0 auto;
+    padding:20px ;
+    font-size: 20px;
+    margin-top:20px
+}
+button:hover{
+    background-color: darkgray ;
+}
+.div-boton-hijo{
+    text-align: center;
+
+}
+.div-hijo{
+    display: flex;
+    width: 100%;
+}
+.s1-1{
+    margin-top: 50px;
+    width: 75%;
+}
+.Respuesta{
+    font-size: 40px;
+    color: white;
+    text-align: justify;
+}
+.reset{
+    margin-top: 100px;
+}
+.p-final{
+    color: white ;
+    font-size: 20px;
+    margin:15px;
+    border:1px solid white;
+}

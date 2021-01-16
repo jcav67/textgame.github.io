@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/css/Styles.css">
+    <script src="./statics/js/index.js"></script>
+    <title>s2-1</title>
+</head>
+<body>
+    <center>
+        <div>
+            <img src="./statics/images/cave.png" alt="Dark cave" height="400">
+        </div>
+        <div class="div-historia s1-1">
+            <p>Cuando entras a la cueva, lo primero que te das cuenta es que está muy oscura.
+
+                Si es mago: con tu báculo puedes alumbrar el interior de las cuevas.
+                
+                Si no es mago: coges una antorcha colocada a la entrada de la cueva.
+                
+                No te demoras mucho en encontrar el costal donde estaban guardando los minerales Ceses y su hijo. Al caminar unos pasos, escuchas nos ruidos extraños. Te adentras más en la cueva, que no sabes si es más oscura o si es solo la sensación de no saber qué puede estar esperando en la oscuridad. De repente, se desmorona el piso y caes no sabes cuántos metros. 
+                
+                Después de no sabes cuánto tiempo, despiertas. Coges tu fuente de luz y alumbras alrededor. Ves una pequeña puerta de madera negra, a duras penas se distingue en la oscuridad. También ves una figura que parece ser una persona con una túnica negra, cubriéndolo desde la cabeza hasta el piso. Tú:</p>
+        </div>
+        <div class="div-buttons">
+            <div style="display: flex;">
+                <div style="display: grid;width: 50%;">
+                    <button id='a' class="btn-respuesta" onclick="s2Respuesta('a')">a) Decides hablarle y preguntarle donde estás.</button>
+                    <button id="b" class="btn-respuesta" onclick="s2Respuesta('b')">b) Coges tu arma en la mano y gritas para atacarlo.</button>
+                </div>
+                <div style="display: grid;width: 50%;">
+                    <button id='c' class="btn-respuesta" onclick="s2Respuesta('c')">c) Te acercas silenciosamente y le clavas un cuchillo.</button>
+                    <button id='d' class="btn-respuesta" onclick="s2Respuesta('d')">d) Intentas escalar la pared por donde te caíste.</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="div-respuesta" style="width: 50%;"><p id="Respuesta" class="Respuesta"></p></div>
+    </center>
+</body>
+</html>
